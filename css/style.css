@@ -23,10 +23,6 @@ a {
   text-decoration: none;
 }
 
-.link:hover {
-  color: var(--accent-color);
-}
-
 ul {
   list-style: none;
 }
@@ -53,8 +49,17 @@ ul {
   line-height: 1.14;
 }
 
-.address-nav {
+.contact-nav {
   color: var(--title-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.link-nav .link.current {
+  color: var(--accent-color);
 }
 
 /* Section Hero */
