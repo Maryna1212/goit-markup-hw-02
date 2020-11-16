@@ -23,7 +23,7 @@ a {
   text-decoration: none;
 }
 
-.link-nav:hover {
+.link:hover {
   color: var(--accent-color);
 }
 
@@ -31,10 +31,28 @@ ul {
   list-style: none;
 }
 
+/* logo */
+
 .logo {
   color: var(--primary-black-color);
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+/* header */
+
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.address-nav {
+  color: var(--title-text-color);
 }
