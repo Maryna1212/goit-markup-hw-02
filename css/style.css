@@ -56,3 +56,30 @@ ul {
 .address-nav {
   color: var(--title-text-color);
 }
+
+/* Section Hero */
+
+.section-hero {
+  background-color: var(--c-dark-color);
+}
+
+.title-hero {
+  color: var(--text-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* button */
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--text-white-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+}
