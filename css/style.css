@@ -10,7 +10,7 @@
   --accent-color: #2196f3;
   --text-white-color: var(--primary-white-color);
   --text-black-color: #000000;
-  --text-dark-color: rgb(255, 255, 255, 0, 6);
+  --text-dark-color: rgb(255, 255, 255, 0.6);
 }
 
 body {
@@ -40,6 +40,10 @@ ul {
 
 .logo-web {
   color: var(--accent-color);
+}
+
+.logo-studio {
+  color: var(--text-white-color);
 }
 
 /* header */
@@ -94,7 +98,21 @@ ul {
 
 /* Footer */
 
-/* button portfolio */
+.footer {
+  background-color: var(--c-dark-color);
+}
+
+.address-footer {
+  color: var(--text-dark-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.contact-address {
+  color: var(--text-white-color);
+}
 
 .button-portfolio {
   background-color: var(--c-light-grey-color);
