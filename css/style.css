@@ -33,7 +33,7 @@ ul {
 .logo {
   color: var(--primary-black-color);
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -89,14 +89,17 @@ ul {
   line-height: 1.87;
   align-items: center;
   text-align: center;
+  letter-spacing: 0.06em;
 }
+
+/* Footer */
 
 /* button portfolio */
 
 .button-portfolio {
   background-color: var(--c-light-grey-color);
   color: var(--primary-text-color);
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -107,4 +110,22 @@ ul {
 .button-portfolio:focus {
   background-color: var(--accent-color);
   color: var(--text-white-color);
+}
+
+/* Section portfolio */
+
+.portfolio-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-description {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
