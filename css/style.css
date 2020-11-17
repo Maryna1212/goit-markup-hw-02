@@ -2,6 +2,7 @@
   /* background */
   --primary-white-color: #ffffff;
   --c-dark-color: #2f303a;
+  --c-light-grey-color: #f5f4fa;
 
   /* text */
   --primary-text-color: #212121;
@@ -87,4 +88,22 @@ ul {
   line-height: 1.87;
   align-items: center;
   text-align: center;
+}
+
+/* button portfolio */
+
+.button-portfolio {
+  background-color: var(--c-light-grey-color);
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--accent-color);
+  color: var(--text-white-color);
 }
